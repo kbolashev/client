@@ -8,7 +8,8 @@
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../..'))
+project_root = os.path.join(__file__, "../..")
+sys.path.insert(0, os.path.abspath(project_root))
 
 project = "DagsHub Client"
 copyright = "2023, DagsHub"
